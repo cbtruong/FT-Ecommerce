@@ -1,12 +1,7 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Header component UI
+    Phần gạch chân menu được hiển thị dựa trên thuộc tính action của thẻ NavLink.
+# Home component
+    Các tiêu đề của HomePage có cùng kiểu nên tách riêng sang 1 component
+# Context
+    Sử dụng để lưu trữ mệnh giá. Và trong các nội dung không điền mệnh giá cố định và sử dụng
+mệnh giá được lưu trữ ở biến "currency" trong context.
